@@ -1,5 +1,4 @@
 -- Active: 1758616867708@@127.0.0.1@3306@f1_system
 DROP DATABASE IF EXISTS f1_system;
 CREATE DATABASE f1_system;
-
 USE f1_system;
