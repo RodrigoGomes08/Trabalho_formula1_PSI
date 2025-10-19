@@ -1,0 +1,11 @@
+USE f1_system;
+
+DROP TABLE IF EXISTS carros;
+
+CREATE TABLE carros (
+    id INT(11) UNSIGNED AUTO_INCREMENT,
+    modelo VARCHAR(100) NOT NULL UNIQUE,
+    num_carro INT(11) UNSIGNED NOT NULL,
+    potencia_motor INT(11) UNSIGNED NOT NULL,
+    PRIMARY KEY (id)
+);
