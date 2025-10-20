@@ -9,7 +9,7 @@ CREATE TABLE corridas(
     FOREIGN KEY(id_circuito) REFERENCES circuitos(id)
 );
 
-INSERT INTO corridas (id_circuito, data, num_voltas) VALUES(
+INSERT INTO corridas (id_circuito, data, num_voltas) VALUES
 (1, '2024-07-07', 52),
 (2, '2024-09-01', 53),
 (3, '2024-08-25', 44),
@@ -24,9 +24,5 @@ INSERT INTO corridas (id_circuito, data, num_voltas) VALUES(
 (12, '2024-07-21', 70),
 (13, '2024-04-21', 63),
 (14, '2024-08-25', 72),
-<<<<<<< HEAD
 (15, '2024-03-09', 50);
-);
-=======
-(15, '2024-03-09', 50);
->>>>>>> fbbf35112bdacf01b98d6e9fa1ce5200d9a4c3eb
+
