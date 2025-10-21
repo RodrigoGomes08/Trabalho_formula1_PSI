@@ -1,4 +1,4 @@
--- Active: 1758616762898@@127.0.0.1@3306@mysql
+-- Active: 1758194976894@@127.0.0.1@3306@mysql
 DROP DATABASE IF EXISTS f1_system;
 CREATE DATABASE f1_system;
 USE f1_system;
