@@ -1,7 +1,7 @@
 USE f1_system;
 
 DROP TABLE IF EXISTS circuitos;
--- Criação da tabela 'circuitos'
+-- Criação da tabela 'circuitos'     
 -- Table structure for table 'circuitos'.
 CREATE TABLE circuitos (
     id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
